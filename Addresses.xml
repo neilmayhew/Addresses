@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE records SYSTEM "addresses.dtd">
+<?xml-stylesheet type="text/css" href="addresses.css"?>
+<records>
+  <record>
+    <title>Mr &amp; Mrs A N</title>
+    <first>Aaron and Berta</first>
+    <last>Other</last>
+    <address>99 Some Street</address>
+    <city>Hailsham</city>
+    <state>Sussex</state>
+    <zip>AA11 2BB</zip>
+    <country>UK</country>
+    <phone-home>01111 222333</phone-home>
+    <notes>Example UK address with one address line</notes>
+    <list>newsletter</list>
+    <label/>
+    <church>St Gilda’s</church>
+  </record>
+  <record>
+    <title>Mrs D</title>
+    <last>Smith</last>
+    <address>“The Nook”</address>
+    <address>Larkridge Rd</address>
+    <city>Clearwater</city>
+    <state>Somerset</state>
+    <zip>CD34 9ZZ</zip>
+    <country>UK</country>
+    <notes>UK address with two address lines</notes>
+    <list>newsletter</list>
+    <label/>
+  </record>
+  <record>
+    <title>Mr &amp; Mrs C</title>
+    <first>Charles and Polly</first>
+    <last>Burrington-Jones</last>
+    <address>Winkley</address>
+    <address>Summer Rd</address>
+    <address>Hambrook</address>
+    <city>Chichester</city>
+    <state>Hants</state>
+    <zip>PO29 8LN</zip>
+    <country>UK</country>
+    <notes>UK address with three address lines</notes>
+    <list>newsletter</list>
+    <label/>
+  </record>
+  <record>
+    <title>Mr &amp; Mrs J</title>
+    <first>Jim and Jane</first>
+    <last>Coast</last>
+    <address>1447 Orlando Rd</address>
+    <city>Miami Springs</city>
+    <state>FL</state>
+    <zip>33266</zip>
+    <country>USA</country>
+    <email>jim_coast@sil.org</email>
+    <notes>Example US address</notes>
+    <list>newsletter</list>
+    <label/>
+  </record>
+  <record>
+    <first>Simon &amp; Adrienne</first>
+    <last>Walker</last>
+    <address>1209 Cochrane Dr</address>
+    <city>Airdrie</city>
+    <state>AB</state>
+    <zip>T4H 2N3</zip>
+    <country>Canada</country>
+    <notes>Example Canadian address</notes>
+    <list>newsletter</list>
+    <label/>
+  </record>
+  <record>
+    <title>Mr &amp; Mrs E</title>
+    <first>Eamon and Helen</first>
+    <last>Michaels</last>
+    <address>SIL</address>
+    <address>BP 2075</address>
+    <city>Dakar</city>
+    <country>Senegal, W Africa</country>
+    <notes>Example African address</notes>
+    <list>newsletter</list>
+    <label/>
+  </record>
+  <record>
+    <first>Bjorn &amp; Hilde</first>
+    <last>Sjönby</last>
+    <address>Helvallavägen 12c</address>
+    <address>Märsta</address>
+    <city>Stockholm</city>
+    <zip>296 42</zip>
+    <country>Sweden</country>
+    <notes>Example Swedish address</notes>
+    <list>newsletter</list>
+    <label/>
+  </record>
+</records>

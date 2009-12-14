@@ -1,0 +1,77 @@
+records {
+   display: block;
+}
+
+record {
+    display: block;
+    collapsible: yes;
+    collapsed: yes;
+    /*border: 1px solid gray;
+    margin: 1px 0;*/
+    background-color: #F0F0FF;
+}
+
+record:before {
+    display: block;
+    content: " " collapser(
+    				collapsed-icon, icon(pop-right), 
+					expanded-icon,  icon(pop-down)) 
+             " " xpath("concat(last, ', ', first)")
+             " " insert-same-after-button(icon, icon(plus))
+             " " delete-button();
+    font-size: larger;
+    color: white;
+    background-color: #202080;
+}
+
+record > * {
+	display: block;
+	border: 1px solid gray;
+	padding: 2px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-right: 5px;
+	margin-left: 16ex;
+	background-color: white;
+}
+
+record > *:before {
+	display: marker;
+	content: element-label();
+	font-weight: bold;
+	color: #0000A0;
+}
+
+address:before,
+email:before {
+	content: insert-same-after-button(icon, icon(plus)) " "	delete-button() " " element-label();
+}
+
+phone:before {
+	content: insert-same-after-button(icon, icon(plus)) " "	delete-button() " " element-label()
+	" " value-editor(attribute, type, font-size, 100%);
+}
+
+phone {
+	margin-left: 27ex;
+}
+
+/*phone:after {
+	content: "  " value-editor(attribute, type, font-size, 75%);
+}*/
+
+label,
+bulk {
+    content: check-box(checked-value, "yes", remove-value, yes);
+	background-color: inherit;
+	border-color: transparent;
+}
+
+notes {
+	/*content: text-area();*/
+}
+
+br {
+	display: inline;
+	content: icon(line-break);
+}

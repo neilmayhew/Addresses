@@ -1,0 +1,30 @@
+<!ELEMENT records (record)*>
+<!ELEMENT record (
+	title?, first?, last,
+	address*, city?, state?, zip?, country?,
+	phone-home?, phone-office?, phone-cell?, fax?,
+	email*,
+	children?, notes?,
+	list, label?, bulk?, church?, categories?
+)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT first (#PCDATA)>
+<!ELEMENT last (#PCDATA)>
+<!ELEMENT address (#PCDATA)>
+<!ELEMENT city (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT zip (#PCDATA)>
+<!ELEMENT country (#PCDATA)>
+<!ELEMENT phone-home (#PCDATA)>
+<!ELEMENT phone-office (#PCDATA)>
+<!ELEMENT phone-cell (#PCDATA)>
+<!ELEMENT fax (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT children (#PCDATA)>
+<!ELEMENT notes (#PCDATA|br)*>
+<!ELEMENT list (#PCDATA)>
+<!ELEMENT label (#PCDATA)>
+<!ELEMENT bulk (#PCDATA)>
+<!ELEMENT church (#PCDATA)>
+<!ELEMENT categories (#PCDATA)>
+<!ELEMENT br EMPTY>
