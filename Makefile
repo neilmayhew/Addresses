@@ -21,6 +21,11 @@ clean:
 
 .PHONY: clean
 
+lint:
+	xmllint --noout --valid $(ADDRESSES)
+
+.PHONY: lint
+
 Labels.xml: labelize.xsl Addresses.xml
 	xsltproc -o $@ $^
 
